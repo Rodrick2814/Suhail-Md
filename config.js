@@ -7,8 +7,8 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="saimsamsun789@gmail.com"
-global.location="Lahore,Pakistan."
+global.email ="rodrricksector2814@gmail.com"
+global.location="That one"
 
 
 global.mongodb= process.env.MONGODB_URI || ""
@@ -25,8 +25,8 @@ global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ 
 
 
 global.devs = "923184474176" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "256709150527";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "256782956464";
 
 
 
@@ -74,10 +74,10 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.7",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "",
+  author : process.env.PACK_AUTHER|| "Sector",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "XXAVIER",
+  ownername:process.env.OWNER_NAME|| "ROD",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -91,7 +91,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
   LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
 
 
